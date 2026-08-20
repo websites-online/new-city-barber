@@ -13,12 +13,16 @@ export class Home implements AfterViewInit, OnDestroy {
     'https://wa.me/491639692733?text=Hallo%20New%20City%20Barber%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin%20anfragen.';
 
   readonly services = [
-    { number: '01', name: 'Classic Cut', detail: 'Beratung, präziser Schnitt & Styling', duration: 'ca. 30 Min.', price: 'XX €' },
-    { number: '02', name: 'Skin Fade', detail: 'Saubere Übergänge, Konturen & Finish', duration: 'ca. 35 Min.', price: 'XX €' },
-    { number: '03', name: 'Beard Ritual', detail: 'Form, Konturen & professionelle Pflege', duration: 'ca. 25 Min.', price: 'XX €' },
-    { number: '04', name: 'Cut & Beard', detail: 'Das komplette New-City-Paket', duration: 'ca. 55 Min.', price: 'XX €' },
-    { number: '05', name: 'Hot Towel Shave', detail: 'Klassische Rasur mit warmem Handtuch', duration: 'ca. 30 Min.', price: 'XX €' },
-    { number: '06', name: 'Junior Cut', detail: 'Starker Schnitt für junge Gentlemen', duration: 'ca. 25 Min.', price: 'XX €' },
+    { number: '01', name: 'Haarschnitt', detail: 'Präziser Schnitt mit sauberem Finish', price: '15 €' },
+    { number: '02', name: 'Haarschnitt nur Schere', detail: 'Komplett mit der Schere geschnitten', price: '18 €' },
+    { number: '03', name: 'Kinderschnitt', detail: 'Für Kinder bis einschließlich 10 Jahre', price: '12 €' },
+    { number: '04', name: 'Bart', detail: 'Bart kürzen und Konturen pflegen', price: '10 €' },
+    { number: '05', name: 'Augenbrauen zupfen', detail: 'Saubere Form und gepflegte Konturen', price: '6 €' },
+    { number: '06', name: 'Gesicht mit Heißwachs', detail: 'Entfernung feiner Gesichtshaare', price: '8 €' },
+    { number: '07', name: 'Gesichtsmaske', detail: 'Pflegende Maske für das Gesicht', price: '5 €' },
+    { number: '08', name: 'Haare & Bart schwarz färben', detail: 'Schwarze Farbe für Haare und Bart', price: '20 €' },
+    { number: '09', name: 'Waschen', detail: 'Gründliche Haarwäsche', price: '3 €' },
+    { number: '10', name: 'Komplettpaket', detail: 'Das komplette New-City-Paket', price: '35 €' },
   ];
 
   readonly reviews = [

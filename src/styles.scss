@@ -140,14 +140,12 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
 .services .section-heading h2 { color: var(--cream); }
 .services .section-heading > p { color: rgba(242,236,223,.53); }
 .service-list { position: relative; z-index: 1; border-top: 1px solid rgba(255,255,255,.16); }
-.service-row { min-height: 118px; display: grid; grid-template-columns: 60px 1fr 150px 130px; gap: 25px; align-items: center; border-bottom: 1px solid rgba(255,255,255,.15); transition: padding .25s, background .25s; }
+.service-row { min-height: 118px; display: grid; grid-template-columns: 60px 1fr 130px; gap: 25px; align-items: center; border-bottom: 1px solid rgba(255,255,255,.15); transition: padding .25s, background .25s; }
 .service-row:hover { padding: 0 20px; background: var(--red-dark); }
 .service-row__number { color: var(--gold); font-size: 10px; letter-spacing: .14em; }
 .service-row h3 { margin: 0 0 7px; font-family: var(--font-display); font-size: 33px; font-weight: 400; letter-spacing: .04em; text-transform: uppercase; }
 .service-row p { margin: 0; color: rgba(242,236,223,.5); font-size: 13px; }
-.service-row__duration { color: rgba(242,236,223,.5); font-size: 12px; }
 .service-row > strong { color: var(--cream); font-family: var(--font-serif); font-size: 19px; }
-.price-note { margin: 25px 0 0; color: rgba(242,236,223,.35); font-size: 10px; letter-spacing: .05em; }
 
 /* Craft */
 .craft { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(60px, 8vw, 130px); align-items: center; }
@@ -354,7 +352,6 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
   .intro__visual { grid-column: auto; min-height: 500px; }
   .photo-placeholder--portrait { min-height: 500px; }
   .service-row { grid-template-columns: 45px 1fr 90px; }
-  .service-row__duration { display: none; }
   .craft, .reviews, .visit { grid-template-columns: 1fr; }
   .photo-placeholder--wide { min-height: 600px; }
   .reviews__summary { display: grid; grid-template-columns: auto 1fr; align-items: end; column-gap: 25px; }

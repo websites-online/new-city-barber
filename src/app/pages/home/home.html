@@ -50,7 +50,7 @@
 <section class="services section section--dark" id="services">
   <div class="section-heading section-heading--split reveal">
     <div><p class="kicker kicker--light">Services & Preise</p><h2>Was darf's<br /><em>heute sein?</em></h2></div>
-    <p>Jeder Schnitt beginnt mit einer kurzen Beratung und endet erst, wenn jedes Detail sitzt.</p>
+    <p>Jeder Service beginnt mit einer kurzen Beratung und endet erst, wenn jedes Detail sitzt.</p>
   </div>
 
   <div class="service-list reveal">
@@ -58,12 +58,10 @@
       <article class="service-row">
         <span class="service-row__number">{{ service.number }}</span>
         <div><h3>{{ service.name }}</h3><p>{{ service.detail }}</p></div>
-        <span class="service-row__duration">{{ service.duration }}</span>
-        <strong>ab {{ service.price }}</strong>
+        <strong>{{ service.price }}</strong>
       </article>
     }
   </div>
-  <p class="price-note">* Platzhalterpreise – lassen sich später zentral austauschen.</p>
 </section>
 
 <section class="craft section">
