@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Unbearbeitete Foto-Uploads (ausgewählte Webbilder liegen unter kurzen Dateinamen daneben)
+public/images/WhatsApp Image *.jpeg
