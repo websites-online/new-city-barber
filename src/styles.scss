@@ -146,6 +146,11 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
 .service-row h3 { margin: 0 0 7px; font-family: var(--font-display); font-size: 33px; font-weight: 400; letter-spacing: .04em; text-transform: uppercase; }
 .service-row p { margin: 0; color: rgba(242,236,223,.5); font-size: 13px; }
 .service-row > strong { color: var(--cream); font-family: var(--font-serif); font-size: 19px; }
+.shop-extras { margin-top: 55px; padding: 34px 38px; position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: end; overflow: hidden; border: 1px solid rgba(197,167,106,.34); background: linear-gradient(120deg, rgba(159,40,40,.24), rgba(255,255,255,.025)); }
+.shop-extras::after { position: absolute; top: -78px; right: 24px; content: 'NC'; color: rgba(255,255,255,.035); font-family: var(--font-display); font-size: 190px; line-height: 1; pointer-events: none; }
+.shop-extras .kicker { margin-bottom: 13px; }
+.shop-extras h3 { margin: 0; color: var(--cream); font-family: var(--font-display); font-size: clamp(30px, 3.5vw, 48px); font-weight: 400; letter-spacing: .04em; text-transform: uppercase; }
+.shop-extras > p { z-index: 1; max-width: 520px; margin: 0; color: rgba(242,236,223,.68); font-size: 14px; line-height: 1.75; }
 
 /* Craft */
 .craft { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(60px, 8vw, 130px); align-items: center; }
@@ -352,6 +357,7 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
   .intro__visual { grid-column: auto; min-height: 500px; }
   .photo-placeholder--portrait { min-height: 500px; }
   .service-row { grid-template-columns: 45px 1fr 90px; }
+  .shop-extras { grid-template-columns: 1fr; gap: 22px; }
   .craft, .reviews, .visit { grid-template-columns: 1fr; }
   .photo-placeholder--wide { min-height: 600px; }
   .reviews__summary { display: grid; grid-template-columns: auto 1fr; align-items: end; column-gap: 25px; }
@@ -404,6 +410,8 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
   .service-row h3 { font-size: 26px; }
   .service-row p { font-size: 10px; }
   .service-row:hover { padding: 0 8px; }
+  .shop-extras { margin-top: 38px; padding: 28px 24px; }
+  .shop-extras::after { right: -20px; font-size: 150px; }
   .photo-placeholder--wide { min-height: 500px; }
   .barber-pole { height: 260px; }
   .reviews__score { font-size: 100px; }
