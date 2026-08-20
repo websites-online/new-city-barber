@@ -34,6 +34,6 @@ Für ein Repository namens `New-City-Barber` lautet die URL normalerweise:
 https://DEIN-BENUTZERNAME.github.io/New-City-Barber/
 ```
 
-## Vor Veröffentlichung erforderlich
+## Rechtliche Seiten
 
-In den Dateien für Impressum und Datenschutz müssen noch der vollständige Name des Inhabers und eine geschäftliche E-Mail-Adresse eingesetzt werden. Optional sind Register- und Umsatzsteuerangaben zu ergänzen, falls vorhanden.
+Impressum und Datenschutz sind im Angular-Router eingebunden und im Footer verlinkt. Für den aktuellen Stand wurden keine Register- oder Umsatzsteuer-Identifikationsnummern angegeben.
