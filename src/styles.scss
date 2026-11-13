@@ -222,7 +222,7 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
 
 .final-cta { min-height: 480px; padding: 100px 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: var(--cream); background: radial-gradient(circle at 50% 110%, rgba(159,40,40,.32), transparent 42%), var(--ink); }
 .final-cta > p { color: var(--gold); font-size: 10px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
-.final-cta h2 { margin: 0 0 40px; font-size: clamp(90px, 13vw, 190px); }
+.final-cta h2 { margin: 0; font-size: clamp(90px, 13vw, 190px); }
 
 /* Footer */
 .site-footer { padding: 100px max(48px, calc((100vw - 1280px) / 2)) 26px; color: var(--cream); background: #11120f; }
@@ -435,10 +435,9 @@ h1 em, h2 em { color: var(--red); font-family: var(--font-serif); font-weight: 6
   .legal-copy section { padding-bottom: 32px; margin-bottom: 32px; }
   .legal-copy h2 { font-size: 31px; }
   .legal-copy p, .legal-copy address { font-size: 13px; }
-  .mobile-dock { z-index: 80; height: 66px; position: fixed; right: 0; bottom: 0; left: 0; display: grid; grid-template-columns: repeat(3,1fr); color: var(--cream); background: #0e0f0d; box-shadow: 0 -12px 35px rgba(0,0,0,.2); }
+  .mobile-dock { z-index: 80; height: 66px; position: fixed; right: 0; bottom: 0; left: 0; display: grid; grid-template-columns: repeat(2,1fr); color: var(--cream); background: #0e0f0d; box-shadow: 0 -12px 35px rgba(0,0,0,.2); }
   .mobile-dock a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; border-right: 1px solid rgba(255,255,255,.1); font-size: 8px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
   .mobile-dock svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; }
-  .mobile-dock__primary { background: var(--red); }
   .booking-page__intro { min-height: 690px; padding: 105px 22px 50px; }
   .back-link { margin-bottom: 55px; }
   .booking-page h1 { font-size: 20vw; }
